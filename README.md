@@ -1,6 +1,6 @@
 # Name of the Bot:  ParamBot
 
-<img width="676" height="862" alt="image" src="https://github.com/user-attachments/assets/531cfa5d-8a2d-4c85-a801-0e7f5e20a002" />
+<img  height="300" alt="image" src="https://github.com/user-attachments/assets/531cfa5d-8a2d-4c85-a801-0e7f5e20a002" />
 
 
 
