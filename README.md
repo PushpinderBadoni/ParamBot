@@ -26,7 +26,7 @@ Test Cases:
 Simple Test cases:
 
 Prompt: Hi
-Response: The bot should greet the user and tell him its main purpose and focus area.
+      Response: The bot should greet the user and tell him its main purpose and focus area.
 
 Prompt: Define Javascript?
 Response: The bot should define what Javascipt is, where it is used and its capabilities.
