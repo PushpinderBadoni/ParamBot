@@ -1,4 +1,4 @@
-# Name of the Bot:  ParamBot
+# ParamBot -## Your Discord Server Coding Assistance
 
 <img  height="300" alt="image" src="https://github.com/user-attachments/assets/531cfa5d-8a2d-4c85-a801-0e7f5e20a002" />
 
