@@ -33,75 +33,125 @@ Based on the response to the prompt. The bot performs really well. It also keeps
 
 ### Simple Test cases:
 
-Prompt: Hi
-Response: The bot should greet the user and tell him its main purpose and focus area.
+#### Prompt: 
+Hi
+#### Response:
+The bot should greet the user and tell him its main purpose and focus area.
 
-Prompt: Define Javascript?
-Response: The bot should define what Javascipt is, where it is used and its capabilities.
+#### Prompt:
+Define Javascript?
+#### Response: 
+The bot should define what Javascipt is, where it is used and its capabilities.
 
-Prompt: What is for loop in java?
-Response: The bot should explain what a for loop is along with its purpose and a code example with explanation.
+#### Prompt:
+What is for loop in java?
+#### Response: 
+The bot should explain what a for loop is along with its purpose and a code example with explanation.
 
-Prompt: “Given a block of code”  break and explain.
-Response: the bot should break each important section of code and explain it so the user can understand it to the most basic level and know what it does and all behind the scene things.
+#### Prompt: 
+“Given a block of code”  break and explain.
+#### Response: 
+the bot should break each important section of code and explain it so the user can understand it to the most basic level and know what it does and all behind the scene things.
 
-Prompt: What should I gift my Girlfriend?
-Response: The bot should let the user know that it can not respond to this question in a positive manner and remind them about its scope of knowledge.
+#### Prompt: 
+What should I gift my Girlfriend?
+#### Response: 
+The bot should let the user know that it can not respond to this question in a positive manner and remind them about its scope of knowledge.
 
-Prompt: Give me roadmap to be a frontend developer?
-Response: The bot should respond with a step by step roadmap to be a frontend developer, listing all the required skills.
+#### Prompt: 
+Give me roadmap to be a frontend developer?
+#### Response: 
+The bot should respond with a step by step roadmap to be a frontend developer, listing all the required skills.
 
-Prompt: What should I feed my dog?
-Response: The bot should let the user know that it can not respond to this question in a positive manner and remind them about its scope of knowledge.
+#### Prompt: 
+What should I feed my dog?
+#### Response: 
+The bot should let the user know that it can not respond to this question in a positive manner and remind them about its scope of knowledge.
 
-Prompt: 2+2 is
-Response: I'm not equipped to answer math questions, but if you have any programming or coding-related queries, feel free to ask!
+#### Prompt: 
+2+2 is
+#### Response:
+I'm not equipped to answer math questions, but if you have any programming or coding-related queries, feel free to ask!
 
-Prompt: how much should i get in JEE mains to get a seat in IIT Bombay
-Response: The bot should reject to know about it and remind about its scope of knowledge
+#### Prompt: 
+How much should i get in JEE mains to get a seat in IIT Bombay
+#### Response: 
+The bot should reject to know about it and remind about its scope of knowledge
 
-Prompt: how much should i get in JEE mains to get a seat in IIT Bombay in Computer Science
-Response: The bot should reject to know about it and remind about its scope of knowledge.
+#### Prompt: 
+How much should i get in JEE mains to get a seat in IIT Bombay in Computer Science
+#### Response:
+The bot should reject to know about it and remind about its scope of knowledge.
 
 
 ### Dialog-specific test case
 
-Dialog: A java for loop
-Prompt: Change the range of loop to 24
-Response: Should change the range to 24 without changing anything else in code and in same language. -PASS
+#### Dialog:
+A java for loop
+#### Prompt: 
+Change the range of loop to 24
+#### Response:
+Should change the range to 24 without changing anything else in code and in same language. -PASS
 
-Dialog: Tell me about Software development
-Prompt: My girlfriend is a software developer, what should i gift her
-Response: Should respond by saying its not my scope of knowledge - FAIL
+#### Dialog: 
+Tell me about Software development
+#### Prompt: 
+My girlfriend is a software developer, what should i gift her
+#### Response:
+Should respond by saying its not my scope of knowledge - FAIL
 
-Dialog: roadmap for frontend dev
-Prompt: what is better, react ot vue
-Response: Give the better on with analysis and statics in market. -PASS
+#### Dialog:
+roadmap for frontend dev
+#### Prompt:
+what is better, react ot vue
+#### Response:
+Give the better on with analysis and statics in market. -PASS
 
-Dialog: write me an if statement in javascript
-Prompt: make it a one line code now
-Response: ternary operator use and making code short – PASS
+#### Dialog: 
+write me an if statement in javascript
+#### Prompt: 
+make it a one line code now
+#### Response: 
+ternary operator use and making code short – PASS
 
-Dialog: is semicolon important in java
-Prompt: what about in javascript
-Response: should tell the importance of semicolon in javascipt and when and when not it can be skipped - PASS
+#### Dialog: 
+is semicolon important in java
+#### Prompt: 
+what about in javascript
+#### Response:
+should tell the importance of semicolon in javascipt and when and when not it can be skipped - PASS
 
-Dialog: what is php
-Prompt: name its backend frameworks
-Response: name all the significant backend frameworks for php- PASS
+#### Dialog: 
+what is php
+#### Prompt: 
+name its backend frameworks
+#### Response: 
+name all the significant backend frameworks for php- PASS
 
-Dialog: (2 level prompt) what is php followed by name its backend framework
-Prompt: can we write frontend in it
-Response: generates an ediqate response with puspose of php and why it is not a good frontend preference – PASS
+#### Dialog: 
+(2 level prompt to test whether the bot is able to keep context of chat) what is php followed by name its backend framework
+#### Prompt: 
+can we write frontend in it
+#### Response:
+generates an ediqate response with puspose of php and why it is not a good frontend preference – PASS
 
-Dialog: Laravel knowledge
-Prompt: what Laravel offer for frontend UI writing
-Response: Tells about blade components - PASS
+#### Dialog: 
+Laravel knowledge
+#### Prompt:
+what Laravel offer for frontend UI writing
+#### Response:
+Tells about blade components - PASS
 
-Dialog: what is string in java
-Prompt: what is character
-Response: should respond to definition of character with respect to java -PASS
+#### Dialog: 
+what is string in java
+#### Prompt: 
+what is character
+#### Response:
+should respond to definition of character with respect to java -PASS
 
-Dialog: What is java
-Prompt: name all types of java coffee
-Response: Should reject question and remind user about scope - PASS
+#### Dialog:
+What is java
+#### Prompt:
+Name all types of java coffee
+#### Response: 
+Should reject question and remind user about scope - PASS
