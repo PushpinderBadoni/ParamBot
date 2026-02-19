@@ -4,9 +4,6 @@ PUSHPINDER BADONI , 000916094 AND 6TH NOVEMBER,2025
 
 """
 """
-Developed by Amin Azmoodeh - Fall 2025
-
-
 A simple chatbot example using OpenAI API that remembers the conversation.
 
 How it works:
